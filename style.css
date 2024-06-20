@@ -1,5 +1,5 @@
 .header{
-    background: url('img/backgraund.jpeg') 0 0/100% 100% no-repeat;
+    background: url('img/background.jpeg') 0 0/100% 100% no-repeat;
     height: 800px;
     border: solid;
     color: white;
@@ -35,8 +35,96 @@
     padding-right: 20px;
     margin-top: 100px;
 }
-a{
+.header__button a{
     color: white;
     text-decoration: none;
     font-family: "Poppins";
+}
+.menu{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px rgb(201, 201, 201);
+    display: block;  
+    text-align:center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+.menu a{
+    font-family: "Poppins";
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    font-size: 15px;
+}
+.about__body {
+    max-width: 923px;
+    margin: 0px auto; 
+}
+.about__header{
+    font-family: "Poppins";
+    text-align:center;
+    margin: 0px 0px 65px 0px;
+}
+.about__title{
+    font-size: 25px;
+    margin: 120px 0px 30px 0px;
+    font-weight:500;
+}
+.title {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+    position: relative;
+    text-align: center;
+    padding: 0px 0px 30px 0px; }
+    .title:after {
+      content: '';
+      position: absolute;
+      width: 50px;
+      bottom: 0;
+      height: 1px;
+      left: 50%;
+      background-color: #000;
+      margin: 0px 0px 0px -25px; 
+    }
+.about__text{
+    max-width: 688px;
+    color: #868585;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 25.89px;
+    margin: 0px auto;
+}
+.about__column {
+    text-align: center;
+    margin: 0px 0px 1000px 0px;
+}
+.item-about{
+    width: 30%;
+    display: inline-block;
+}
+.item-about__icon {
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+.item-about__title {
+    font-family: "Poppins";
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 3.52px;
+    margin: 0px 0px 35px 0px; 
+}
+.item-about__text {
+    font-family: "Poppins";
+    text-align: center;
+    color: #868585;
+    line-height: 26px;
+    font-weight: 300;
+    font-size: 14px; 
 }
